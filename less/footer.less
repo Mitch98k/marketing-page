@@ -1,12 +1,17 @@
 footer{
 	.flex-class();
 	justify-content: space-around;
-	background: black;
+	background: @back-color;
 	img{
 		width: 5%;
 		filter: invert(100%);
+
+		@media (max-width: 500px) {
+			width: 20%;
+		}
 	}
 	div{
+		color: @text-color;
 		filter: invert(100%);
 	}
 }
