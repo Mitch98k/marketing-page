@@ -141,6 +141,16 @@ header {
     flex-direction: column;
   }
 }
+header a {
+  margin-right: 5%;
+  font-size: 1.2rem;
+}
+@media (max-width: 500px) {
+  header a {
+    margin-right: 0%;
+    margin-bottom: 5%;
+  }
+}
 header #logo {
   width: 5%;
   margin-right: 20%;
