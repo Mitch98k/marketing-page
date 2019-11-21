@@ -267,6 +267,11 @@ footer img {
     width: 20%;
   }
 }
+footer a {
+  color: black;
+  filter: invert(100%);
+  font-size: 1.5rem;
+}
 footer div {
   color: black;
   filter: invert(100%);
